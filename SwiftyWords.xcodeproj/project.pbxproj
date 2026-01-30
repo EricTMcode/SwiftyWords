@@ -6,17 +6,62 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		07A8A5A82F2CE9A20069014B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8A5A52F2CE9A20069014B /* ContentView.swift */; };
+		07A8A5A92F2CE9A20069014B /* SwiftyWordsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8A5A62F2CE9A20069014B /* SwiftyWordsApp.swift */; };
+		07A8A5AA2F2CE9A20069014B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5A42F2CE9A20069014B /* Assets.xcassets */; };
+		07A8A5C22F2CE9A80069014B /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8A5AB2F2CE9A80069014B /* Bundle-Decodable.swift */; };
+		07A8A5C32F2CE9A80069014B /* Plants.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5B82F2CE9A80069014B /* Plants.json */; };
+		07A8A5C42F2CE9A80069014B /* Hobbies.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5B22F2CE9A80069014B /* Hobbies.json */; };
+		07A8A5C52F2CE9A80069014B /* Manga.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5B32F2CE9A80069014B /* Manga.json */; };
+		07A8A5C62F2CE9A80069014B /* Pokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5B92F2CE9A80069014B /* Pokemon.json */; };
+		07A8A5C72F2CE9A80069014B /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5AC2F2CE9A80069014B /* Animals.json */; };
+		07A8A5C82F2CE9A80069014B /* Random.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5BA2F2CE9A80069014B /* Random.json */; };
+		07A8A5C92F2CE9A80069014B /* Computers.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5B02F2CE9A80069014B /* Computers.json */; };
+		07A8A5CA2F2CE9A80069014B /* Categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5AE2F2CE9A80069014B /* Categories.json */; };
+		07A8A5CB2F2CE9A80069014B /* SciFiFantasy.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5BD2F2CE9A80069014B /* SciFiFantasy.json */; };
+		07A8A5CC2F2CE9A80069014B /* Celebrities.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5AF2F2CE9A80069014B /* Celebrities.json */; };
+		07A8A5CD2F2CE9A80069014B /* Brands.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5AD2F2CE9A80069014B /* Brands.json */; };
+		07A8A5CE2F2CE9A80069014B /* MoviesAndTV.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5B42F2CE9A80069014B /* MoviesAndTV.json */; };
+		07A8A5CF2F2CE9A80069014B /* People.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5B62F2CE9A80069014B /* People.json */; };
+		07A8A5D02F2CE9A80069014B /* Places.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5B72F2CE9A80069014B /* Places.json */; };
+		07A8A5D12F2CE9A80069014B /* Sports.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5BE2F2CE9A80069014B /* Sports.json */; };
+		07A8A5D22F2CE9A80069014B /* Science.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5BC2F2CE9A80069014B /* Science.json */; };
+		07A8A5D32F2CE9A80069014B /* VideoGames.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5BF2F2CE9A80069014B /* VideoGames.json */; };
+		07A8A5D42F2CE9A80069014B /* Weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5C02F2CE9A80069014B /* Weather.json */; };
+		07A8A5D52F2CE9A80069014B /* Foods.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5B12F2CE9A80069014B /* Foods.json */; };
+		07A8A5D62F2CE9A80069014B /* Music.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5B52F2CE9A80069014B /* Music.json */; };
+		07A8A5D72F2CE9A80069014B /* School.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5BB2F2CE9A80069014B /* School.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		07A8A5962F2CE27A0069014B /* SwiftyWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A8A5A42F2CE9A20069014B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07A8A5A52F2CE9A20069014B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07A8A5A62F2CE9A20069014B /* SwiftyWordsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyWordsApp.swift; sourceTree = "<group>"; };
+		07A8A5AB2F2CE9A80069014B /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		07A8A5AC2F2CE9A80069014B /* Animals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Animals.json; sourceTree = "<group>"; };
+		07A8A5AD2F2CE9A80069014B /* Brands.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Brands.json; sourceTree = "<group>"; };
+		07A8A5AE2F2CE9A80069014B /* Categories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Categories.json; sourceTree = "<group>"; };
+		07A8A5AF2F2CE9A80069014B /* Celebrities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Celebrities.json; sourceTree = "<group>"; };
+		07A8A5B02F2CE9A80069014B /* Computers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Computers.json; sourceTree = "<group>"; };
+		07A8A5B12F2CE9A80069014B /* Foods.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Foods.json; sourceTree = "<group>"; };
+		07A8A5B22F2CE9A80069014B /* Hobbies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Hobbies.json; sourceTree = "<group>"; };
+		07A8A5B32F2CE9A80069014B /* Manga.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Manga.json; sourceTree = "<group>"; };
+		07A8A5B42F2CE9A80069014B /* MoviesAndTV.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MoviesAndTV.json; sourceTree = "<group>"; };
+		07A8A5B52F2CE9A80069014B /* Music.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Music.json; sourceTree = "<group>"; };
+		07A8A5B62F2CE9A80069014B /* People.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = People.json; sourceTree = "<group>"; };
+		07A8A5B72F2CE9A80069014B /* Places.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Places.json; sourceTree = "<group>"; };
+		07A8A5B82F2CE9A80069014B /* Plants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Plants.json; sourceTree = "<group>"; };
+		07A8A5B92F2CE9A80069014B /* Pokemon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Pokemon.json; sourceTree = "<group>"; };
+		07A8A5BA2F2CE9A80069014B /* Random.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Random.json; sourceTree = "<group>"; };
+		07A8A5BB2F2CE9A80069014B /* School.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = School.json; sourceTree = "<group>"; };
+		07A8A5BC2F2CE9A80069014B /* Science.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Science.json; sourceTree = "<group>"; };
+		07A8A5BD2F2CE9A80069014B /* SciFiFantasy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SciFiFantasy.json; sourceTree = "<group>"; };
+		07A8A5BE2F2CE9A80069014B /* Sports.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Sports.json; sourceTree = "<group>"; };
+		07A8A5BF2F2CE9A80069014B /* VideoGames.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VideoGames.json; sourceTree = "<group>"; };
+		07A8A5C02F2CE9A80069014B /* Weather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Weather.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		07A8A5982F2CE27A0069014B /* SwiftyWords */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftyWords;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		07A8A5932F2CE27A0069014B /* Frameworks */ = {
@@ -32,7 +77,7 @@
 		07A8A58D2F2CE27A0069014B = {
 			isa = PBXGroup;
 			children = (
-				07A8A5982F2CE27A0069014B /* SwiftyWords */,
+				07A8A5A72F2CE9A20069014B /* SwiftyWords */,
 				07A8A5972F2CE27A0069014B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +88,46 @@
 				07A8A5962F2CE27A0069014B /* SwiftyWords.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		07A8A5A72F2CE9A20069014B /* SwiftyWords */ = {
+			isa = PBXGroup;
+			children = (
+				07A8A5A42F2CE9A20069014B /* Assets.xcassets */,
+				07A8A5A52F2CE9A20069014B /* ContentView.swift */,
+				07A8A5A62F2CE9A20069014B /* SwiftyWordsApp.swift */,
+				07A8A5AB2F2CE9A80069014B /* Bundle-Decodable.swift */,
+				07A8A5C12F2CE9A80069014B /* Categories */,
+			);
+			path = SwiftyWords;
+			sourceTree = "<group>";
+		};
+		07A8A5C12F2CE9A80069014B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				07A8A5AC2F2CE9A80069014B /* Animals.json */,
+				07A8A5AD2F2CE9A80069014B /* Brands.json */,
+				07A8A5AE2F2CE9A80069014B /* Categories.json */,
+				07A8A5AF2F2CE9A80069014B /* Celebrities.json */,
+				07A8A5B02F2CE9A80069014B /* Computers.json */,
+				07A8A5B12F2CE9A80069014B /* Foods.json */,
+				07A8A5B22F2CE9A80069014B /* Hobbies.json */,
+				07A8A5B32F2CE9A80069014B /* Manga.json */,
+				07A8A5B42F2CE9A80069014B /* MoviesAndTV.json */,
+				07A8A5B52F2CE9A80069014B /* Music.json */,
+				07A8A5B62F2CE9A80069014B /* People.json */,
+				07A8A5B72F2CE9A80069014B /* Places.json */,
+				07A8A5B82F2CE9A80069014B /* Plants.json */,
+				07A8A5B92F2CE9A80069014B /* Pokemon.json */,
+				07A8A5BA2F2CE9A80069014B /* Random.json */,
+				07A8A5BB2F2CE9A80069014B /* School.json */,
+				07A8A5BC2F2CE9A80069014B /* Science.json */,
+				07A8A5BD2F2CE9A80069014B /* SciFiFantasy.json */,
+				07A8A5BE2F2CE9A80069014B /* Sports.json */,
+				07A8A5BF2F2CE9A80069014B /* VideoGames.json */,
+				07A8A5C02F2CE9A80069014B /* Weather.json */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +144,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				07A8A5982F2CE27A0069014B /* SwiftyWords */,
 			);
 			name = SwiftyWords;
 			packageProductDependencies = (
@@ -109,6 +191,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A8A5C32F2CE9A80069014B /* Plants.json in Resources */,
+				07A8A5C42F2CE9A80069014B /* Hobbies.json in Resources */,
+				07A8A5C52F2CE9A80069014B /* Manga.json in Resources */,
+				07A8A5C62F2CE9A80069014B /* Pokemon.json in Resources */,
+				07A8A5C72F2CE9A80069014B /* Animals.json in Resources */,
+				07A8A5C82F2CE9A80069014B /* Random.json in Resources */,
+				07A8A5C92F2CE9A80069014B /* Computers.json in Resources */,
+				07A8A5CA2F2CE9A80069014B /* Categories.json in Resources */,
+				07A8A5CB2F2CE9A80069014B /* SciFiFantasy.json in Resources */,
+				07A8A5CC2F2CE9A80069014B /* Celebrities.json in Resources */,
+				07A8A5CD2F2CE9A80069014B /* Brands.json in Resources */,
+				07A8A5CE2F2CE9A80069014B /* MoviesAndTV.json in Resources */,
+				07A8A5CF2F2CE9A80069014B /* People.json in Resources */,
+				07A8A5D02F2CE9A80069014B /* Places.json in Resources */,
+				07A8A5D12F2CE9A80069014B /* Sports.json in Resources */,
+				07A8A5D22F2CE9A80069014B /* Science.json in Resources */,
+				07A8A5D32F2CE9A80069014B /* VideoGames.json in Resources */,
+				07A8A5D42F2CE9A80069014B /* Weather.json in Resources */,
+				07A8A5D52F2CE9A80069014B /* Foods.json in Resources */,
+				07A8A5D62F2CE9A80069014B /* Music.json in Resources */,
+				07A8A5D72F2CE9A80069014B /* School.json in Resources */,
+				07A8A5AA2F2CE9A20069014B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +223,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A8A5A82F2CE9A20069014B /* ContentView.swift in Sources */,
+				07A8A5A92F2CE9A20069014B /* SwiftyWordsApp.swift in Sources */,
+				07A8A5C22F2CE9A80069014B /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
