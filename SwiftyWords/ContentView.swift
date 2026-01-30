@@ -39,6 +39,13 @@ struct ContentView: View {
             }
 
             Text(model.currentAnswer)
+                .font(.title)
+                .lineLimit(1)
+                .padding(.horizontal, 10)
+                .padding(.vertical, 5)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(.quaternary)
+                .clipShape(RoundedRectangle(cornerRadius: 5))
 
             LazyVGrid(columns: Array<GridItem>(repeating: .init(.flexible()), count: 4)) {
                 ForEach(0..<model.segments.count, id: \.self) { index in
@@ -46,7 +53,7 @@ struct ContentView: View {
                     Button {
                         model.select(index)
                     } label: {
-                        Text(segment.text)
+                        SegmentView(segment: segment)
                     }
                     .buttonStyle(.plain)
                     .disabled(segment.isUsed)
