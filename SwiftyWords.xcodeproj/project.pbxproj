@@ -33,6 +33,7 @@
 		07A8A5D62F2CE9A80069014B /* Music.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5B52F2CE9A80069014B /* Music.json */; };
 		07A8A5D72F2CE9A80069014B /* School.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A8A5BB2F2CE9A80069014B /* School.json */; };
 		07A8A5D92F2CEA540069014B /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8A5D82F2CEA540069014B /* DataTypes.swift */; };
+		07A8A5DB2F2CECAE0069014B /* LevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8A5DA2F2CECAE0069014B /* LevelViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		07A8A5BF2F2CE9A80069014B /* VideoGames.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VideoGames.json; sourceTree = "<group>"; };
 		07A8A5C02F2CE9A80069014B /* Weather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Weather.json; sourceTree = "<group>"; };
 		07A8A5D82F2CEA540069014B /* DataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTypes.swift; sourceTree = "<group>"; };
+		07A8A5DA2F2CECAE0069014B /* LevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				07A8A5A62F2CE9A20069014B /* SwiftyWordsApp.swift */,
 				07A8A5AB2F2CE9A80069014B /* Bundle-Decodable.swift */,
 				07A8A5D82F2CEA540069014B /* DataTypes.swift */,
+				07A8A5DA2F2CECAE0069014B /* LevelViewModel.swift */,
 				07A8A5C12F2CE9A80069014B /* Categories */,
 				07A8A5A42F2CE9A20069014B /* Assets.xcassets */,
 			);
@@ -228,6 +231,7 @@
 			files = (
 				07A8A5A82F2CE9A20069014B /* ContentView.swift in Sources */,
 				07A8A5D92F2CEA540069014B /* DataTypes.swift in Sources */,
+				07A8A5DB2F2CECAE0069014B /* LevelViewModel.swift in Sources */,
 				07A8A5A92F2CE9A20069014B /* SwiftyWordsApp.swift in Sources */,
 				07A8A5C22F2CE9A80069014B /* Bundle-Decodable.swift in Sources */,
 			);
@@ -383,7 +387,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -415,7 +419,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
