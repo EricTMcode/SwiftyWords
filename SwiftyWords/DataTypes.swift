@@ -24,3 +24,28 @@ struct Word: Hashable, Decodable {
 
     static let example = Word(solution: "Example solution", hint: "Example hint", segments: ["ABC", "DEF"])
 }
+
+struct Answer: Identifiable {
+    var id: String { word.hint }
+    var word: Word
+    var isSolved = false
+
+    init(word: Word) {
+        self.word = word
+    }
+
+    var imageName: String {
+        "\(word.solution.count).circle"
+    }
+}
+
+struct Segment {
+    var text: String
+    var isUsed = false
+
+    init(text: String) {
+        self.text = text
+    }
+
+    static let example = Segment(text: "AB")
+}
