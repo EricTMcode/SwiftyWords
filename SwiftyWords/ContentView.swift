@@ -46,6 +46,17 @@ struct ContentView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .background(.quaternary)
                 .clipShape(RoundedRectangle(cornerRadius: 5))
+                .overlay(alignment: .trailing) {
+                    Button(action: model.delete) {
+                        Label("Delete", systemImage: "delete.left")
+                            .font(.title)
+                            .labelStyle(.iconOnly)
+                    }
+                    .buttonStyle(.plain)
+                    .offset(x: -10)
+                }
+
+            Spacer()
 
             LazyVGrid(columns: Array<GridItem>(repeating: .init(.flexible()), count: 4)) {
                 ForEach(0..<model.segments.count, id: \.self) { index in
