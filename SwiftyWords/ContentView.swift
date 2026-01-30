@@ -8,12 +8,51 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var model: LevelViewModel
+
+    init() {
+        _model = StateObject(wrappedValue: {
+            let category = Bundle.main.decode(Category.self, from: "Animals.json")
+            return LevelViewModel(words: category.levels[0])
+        }())
+    }
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            VStack {
+                ForEach(model.answers) { answer in
+                    HStack {
+                        if answer.isSolved {
+                            Text(answer.word.solution)
+                        } else {
+                            Text(answer.word.hint)
+                            Spacer()
+                            Image(systemName: answer.imageName)
+                        }
+                    }
+                    .font(.title3)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .bold(answer.isSolved)
+
+                    Spacer()
+                }
+            }
+
+            Text(model.currentAnswer)
+
+            LazyVGrid(columns: Array<GridItem>(repeating: .init(.flexible()), count: 4)) {
+                ForEach(0..<model.segments.count, id: \.self) { index in
+                    let segment = model.segments[index]
+                    Button {
+                        model.select(index)
+                    } label: {
+                        Text(segment.text)
+                    }
+                    .buttonStyle(.plain)
+                    .disabled(segment.isUsed)
+                    .disabled(model.selectedSegments.count == 7)
+                }
+            }
         }
         .padding()
     }
