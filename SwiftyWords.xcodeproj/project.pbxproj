@@ -35,6 +35,8 @@
 		07A8A5D92F2CEA540069014B /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8A5D82F2CEA540069014B /* DataTypes.swift */; };
 		07A8A5DB2F2CECAE0069014B /* LevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8A5DA2F2CECAE0069014B /* LevelViewModel.swift */; };
 		07A8A5DD2F2CF9730069014B /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8A5DC2F2CF9730069014B /* SegmentView.swift */; };
+		07A8A5DF2F2CFBE20069014B /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8A5DE2F2CFBE20069014B /* LevelsView.swift */; };
+		07A8A5E12F2CFD030069014B /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A8A5E02F2CFD030069014B /* CategoriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,8 @@
 		07A8A5D82F2CEA540069014B /* DataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTypes.swift; sourceTree = "<group>"; };
 		07A8A5DA2F2CECAE0069014B /* LevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewModel.swift; sourceTree = "<group>"; };
 		07A8A5DC2F2CF9730069014B /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		07A8A5DE2F2CFBE20069014B /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
+		07A8A5E02F2CFD030069014B /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				07A8A5A52F2CE9A20069014B /* ContentView.swift */,
+				07A8A5E02F2CFD030069014B /* CategoriesView.swift */,
+				07A8A5DE2F2CFBE20069014B /* LevelsView.swift */,
 				07A8A5DC2F2CF9730069014B /* SegmentView.swift */,
 				07A8A5A62F2CE9A20069014B /* SwiftyWordsApp.swift */,
 				07A8A5AB2F2CE9A80069014B /* Bundle-Decodable.swift */,
@@ -232,10 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A8A5E12F2CFD030069014B /* CategoriesView.swift in Sources */,
 				07A8A5A82F2CE9A20069014B /* ContentView.swift in Sources */,
 				07A8A5D92F2CEA540069014B /* DataTypes.swift in Sources */,
 				07A8A5DB2F2CECAE0069014B /* LevelViewModel.swift in Sources */,
 				07A8A5A92F2CE9A20069014B /* SwiftyWordsApp.swift in Sources */,
+				07A8A5DF2F2CFBE20069014B /* LevelsView.swift in Sources */,
 				07A8A5DD2F2CF9730069014B /* SegmentView.swift in Sources */,
 				07A8A5C22F2CE9A80069014B /* Bundle-Decodable.swift in Sources */,
 			);

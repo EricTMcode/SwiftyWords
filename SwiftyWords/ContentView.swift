@@ -9,13 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var model: LevelViewModel
+    var category: Category
+    var levelNumber: Int
 
-    init() {
+    init(category: Category, levelNumber: Int) {
+        self.category = category
+        self.levelNumber = levelNumber
+
         _model = StateObject(wrappedValue: {
-            let category = Bundle.main.decode(Category.self, from: "Animals.json")
-            return LevelViewModel(words: category.levels[0])
+            LevelViewModel(words: category.levels[levelNumber])
         }())
     }
+
+    // hack to load a level
+    //    init() {
+    //        _model = StateObject(wrappedValue: {
+    //            let category = Bundle.main.decode(Category.self, from: "Animals.json")
+    //            return LevelViewModel(words: category.levels[0])
+    //        }())
+    //    }
 
     var body: some View {
         VStack {
@@ -77,5 +89,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView(category: .example, levelNumber: 0)
 }
