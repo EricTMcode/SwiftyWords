@@ -85,6 +85,8 @@ struct ContentView: View {
             }
         }
         .padding()
+        .navigationTitle("Level \(levelNumber + 1)")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

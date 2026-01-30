@@ -14,18 +14,20 @@ struct CategoriesView: View {
     var body: some View {
         NavigationStack {
             List(categories) { category in
-                VStack(alignment: .leading) {
-                    Text(category.name)
-                        .font(.headline)
+                NavigationLink(value: category) {
+                    VStack(alignment: .leading) {
+                        Text(category.name)
+                            .font(.headline)
 
-                    Text(category.description)
+                        Text(category.description)
+                    }
                 }
             }
+            .navigationDestination(for: Category.self) { category in
+                LevelsView(category: category)
+            }
+            .navigationTitle("7 Swifty Words")
         }
-        .navigationDestination(for: Category.self) { category in
-            LevelsView(category: category)
-        }
-        .navigationTitle("7 Swifty Words")
     }
 }
 

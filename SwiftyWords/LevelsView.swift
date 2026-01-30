@@ -17,7 +17,7 @@ struct LevelsView: View {
             }
         }
         .navigationDestination(for: Int.self) { level in
-            ContentView(category: category, level: level)
+            ContentView(category: category, levelNumber: level)
         }
         .navigationTitle(category.name)
     }
